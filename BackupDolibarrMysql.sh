@@ -35,7 +35,7 @@ echo "######################################################" >> /opt/backups/lo
 echo "######################################################" >> /opt/backups/conf/mailmessage_backup_dolibarr
 echo " Lanzando backup mysql sobre DB dolibarr " >> /opt/backups/conf/mailmessage_backup_dolibarr
 echo "######################################################" >> /opt/backups/conf/mailmessage_backup_dolibarr
-mysqldump -u root -pcabrito1 dolibarr > /opt/backups/mysql_data/dolibarr_backup_$timestamp.sql
+mysqldump -u root -pXXXXXXX dolibarr > /opt/backups/mysql_data/dolibarr_backup_$timestamp.sql
 if [ $? == 0 ]; then
         echo "Backup was successful"
         echo ""
