@@ -105,6 +105,7 @@ else
         echo ""
         echo "E-mail has failed" >> /opt/backups/logs/mysql_dolibarr_backup_$timestamp.log
         echo "" >> /opt/backups/logs/mysql_dolibarr_backup_$timestamp.log
+        exit 1
 fi
 
 exit 0
